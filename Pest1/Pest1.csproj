@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PestLocationsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -161,6 +162,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Mark1.png" />
     <Content Include="css\animate.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\flaticon.css" />
@@ -188,7 +190,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\about\about_lft.png" />
     <Content Include="img\about\about_right.png" />
-    <Content Include="img\banner\fox3.jpg" />
+    <Content Include="img\banner\cat3.jpg" />
     <Content Include="img\cat.jpg" />
     <Content Include="img\banner\banner.png" />
     <Content Include="img\banner\banner2.png" />
@@ -210,6 +212,7 @@
     <Content Include="img\blog\single_blog_4.png" />
     <Content Include="img\blog\single_blog_5.png" />
     <Content Include="img\blog\slide_thumb_1.png" />
+    <Content Include="img\cat3.jpg" />
     <Content Include="img\comment\comment_1.png" />
     <Content Include="img\comment\comment_2.png" />
     <Content Include="img\comment\comment_3.png" />
@@ -243,6 +246,7 @@
     <Content Include="img\footer-logo.png" />
     <Content Include="img\bradcamfox2.jpg" />
     <Content Include="img\fox2.jpg" />
+    <Content Include="img\fox3.jpg" />
     <Content Include="img\gallery\1.png" />
     <Content Include="img\gallery\2.png" />
     <Content Include="img\gallery\3.png" />
@@ -417,6 +421,12 @@
     <Content Include="scss\_team.scss" />
     <Content Include="scss\_testmonial.scss" />
     <Content Include="scss\_varriable.scss" />
+    <Content Include="Views\PestLocations\Create.cshtml" />
+    <Content Include="Views\PestLocations\Delete.cshtml" />
+    <Content Include="Views\PestLocations\Details.cshtml" />
+    <Content Include="Views\PestLocations\Edit.cshtml" />
+    <Content Include="Views\PestLocations\Index.cshtml" />
+    <Content Include="Views\Home\Location.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

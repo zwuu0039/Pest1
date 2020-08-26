@@ -26,5 +26,12 @@ namespace Pest1.Controllers
 
             return View();
         }
+
+        public ActionResult Location()
+        {
+
+
+            return View();
+        }
     }
 }
