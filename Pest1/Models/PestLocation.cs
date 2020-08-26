@@ -14,7 +14,7 @@ namespace Pest1.Models
     
     public partial class PestLocation
     {
-        public int column_0 { get; set; }
+        public int column_0 { get; internal set; }
         public string Scientific_Name { get; set; }
         public string Vernacular_name { get; set; }
         public string Event_Date__parsed { get; set; }

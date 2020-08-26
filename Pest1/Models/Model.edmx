@@ -28,7 +28,7 @@
           <Key>
             <PropertyRef Name="column_0" />
           </Key>
-          <Property Name="column_0" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="column_0" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" a:SetterAccess="Internal" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
           <Property Name="Scientific_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Vernacular_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Event_Date__parsed" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
